@@ -22,11 +22,11 @@
             android:value="${TRAVEL_BOOK_API_KEY}" />
 
         <activity
-            android:name=".MapsActivity"
+            android:name=".view.MapsActivity"
             android:exported="false"
             android:label="@string/title_activity_maps" />
         <activity
-            android:name=".MainActivity"
+            android:name=".view.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

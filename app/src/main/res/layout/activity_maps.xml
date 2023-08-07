@@ -13,7 +13,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:context=".MapsActivity" />
+        tools:context=".view.MapsActivity" />
 
     <Button
         android:id="@+id/btn_save"
@@ -22,21 +22,20 @@
         android:onClick="save"
         android:text="Save"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btn_delete"
-        app:layout_constraintHorizontal_bias="0.312"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/placeText"
-        app:layout_constraintVertical_bias="0.519" />
+        app:layout_constraintTop_toBottomOf="@+id/placeText" />
 
     <Button
         android:id="@+id/btn_delete"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="56dp"
         android:onClick="delete"
         android:text="Delete"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/placeText"
         app:layout_constraintVertical_bias="0.519" />
 
